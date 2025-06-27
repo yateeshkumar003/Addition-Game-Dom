@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sum of Two Numbers Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="text-center">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/sum-of-two-numbers-img.png"
+            class="image" alt="Math Game Image" />
+        <div class="bg-container pt-5 pb-5">
+            <span id="firstNumber" class="number m-2"></span>
+            <span class="operator m-1">+</span>
+            <span id="secondNumber" class="number m-2"></span>
+            <span class="operator m-1">=</span>
+            <input id="userInput" class="user-input" type="text" />
+            <div class="mt-4 mb-4">
+                <button id="checkButton" class="btn btn-primary mr-3">Check</button>
+                <button id="restartButton" class="btn btn-primary">Restart</button>
+            </div>
+            <p class="game-result" id="gameResult"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
